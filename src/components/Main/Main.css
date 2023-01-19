@@ -1,0 +1,107 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 100px 100px;
+}
+.container-main {
+  background: url("https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+    0 0 / cover no-repeat;
+}
+.main-person-data {
+  display: flex;
+  /* justify-content: space-between; */
+  position: relative;
+
+  margin-bottom: 150px;
+  background-color: aliceblue;
+}
+.main-contacts {
+  background-color: #004282;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 200px 20px 20px 20px;
+}
+.main-text {
+  margin: 0;
+  line-height: 25px;
+}
+.main-mail,
+.main-phone {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-network {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.main-list {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+}
+.main-icon {
+  width: 30px;
+  height: 30px;
+  color: #000;
+  border: 0.5px solid rgba(255, 111, 0, 0.71);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-person-wrapper {
+  border: 1px solid #ccc;
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  width: 60%;
+}
+.main-person-photo {
+  position: relative;
+  margin-left: -160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-person-image {
+  width: 400px;
+  height: 500px;
+  z-index: 10;
+}
+.main-person-info {
+  padding: 200px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 45px;
+  /* text-align: center; */
+  line-height: 10px;
+}
+h2 {
+  font-size: 45px;
+  /* text-align: center; */
+  color: #004282;
+  line-height: 10px;
+}
+.main-profession {
+  font-size: 20px;
+  position: relative;
+}
+.main-profession::before {
+  /* margin: 10px 0 0 -180px; */
+  content: "";
+  position: absolute;
+  background-color: #004282;
+  width: 170px;
+  height: 2px;
+  margin: 30px 0px 0 0px;
+}

@@ -1,0 +1,72 @@
+.container-aboutme {
+  background: url("https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+    0 0 / cover no-repeat;
+}
+.aboutme-wrapper {
+  background-color: aliceblue;
+  padding: 50px;
+}
+.aboutme-title {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.aboutme-info {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutme-education {
+  padding: 50px;
+}
+.education-title {
+  font-size: 20px;
+  color: #004282;
+}
+.education-list {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.education-item {
+  /* list-style: none; */
+}
+.education-certificate {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
+.education-link {
+  color: #004282;
+}
+.education-image {
+  width: 150px;
+  box-shadow: 7px 8px 14px #ccc;
+}
+.wrapper-skills {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  background-color: #004282;
+}
+.aboutme-hardskills {
+}
+.hardskills-title,
+.softskills-title,
+.hobbies-title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.hardskills-list,
+.softkills-list,
+.hobbies-list {
+  padding: 0;
+  margin: 0;
+}
+.hardskills-item,
+.softkills-item,
+.hobbies-item {
+  list-style: none;
+  color: aliceblue;
+  line-height: 25px;
+}
