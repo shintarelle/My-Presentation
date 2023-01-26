@@ -1,34 +1,19 @@
 import React from "react";
+import Network from "../Main/Network";
 import './Footer.css';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTelegram, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-
-const photo = 'photo.jpeg';
-const style = {
-  'width': '20px',
-  'height': '20px',
-  'alignSelf': 'center',
-}
+const resume = 'https://drive.google.com/file/d/1kUNrFVHIe8GEc03jSz8S24slI22E8gtr/view?usp=sharing';
 
 export default function Footer() {
   return (
     <>
-    <div className='container container-footer'>
-      <h3>Download my CV</h3>
-      <div className='footer-wrapper'>
-    <ul className="main-network">
-              <li className='main-list'><a className="main-icon" href='https://www.linkedin.com/in/ann-rozhkina-37a827239/'>
-                <FontAwesomeIcon icon={faLinkedin} style={style} /></a></li>
-              <li className='main-list'><a className="main-icon" href="https://github.com/shintarelle">
-                <FontAwesomeIcon icon={faGithub} style={style}/></a></li>
-              <li className='main-list'><a className="main-icon" href="https://t.me/shintarelle">
-                <FontAwesomeIcon icon={faTelegram} style={style} /></a></li>
-            </ul>
-
-
-
-      </div>
+      <div className='container-footer'>
+        <div className='footer-wrapper'>
+          <h3 className='footer-title'><a className='footer-link' href={resume}  download>Download my CV</a></h3>
+          <div className='footer-network'>
+            <Network />
+          </div>
+        </div>
       </div>
     </>
   )

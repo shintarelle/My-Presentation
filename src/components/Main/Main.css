@@ -12,7 +12,6 @@
   /* justify-content: space-between; */
   position: relative;
 
-  margin-bottom: 150px;
   background-color: aliceblue;
 }
 .main-contacts {
@@ -58,11 +57,12 @@
 .main-person-wrapper {
   border: 1px solid #ccc;
   display: flex;
-  gap: 20px;
+  gap: 50px;
   background-color: #fff;
   width: 60%;
 }
 .main-person-photo {
+  padding: 50px 0px;
   position: relative;
   margin-left: -160px;
   display: flex;
@@ -72,21 +72,21 @@
 
 .main-person-image {
   width: 400px;
-  height: 500px;
+  /* height: 500px; */
   z-index: 10;
 }
 .main-person-info {
-  padding: 200px 50px;
+  /* padding: 200px 50px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-h1 {
+.info-title {
   font-size: 45px;
   /* text-align: center; */
   line-height: 10px;
 }
-h2 {
+.info-subtitle {
   font-size: 45px;
   /* text-align: center; */
   color: #004282;
@@ -104,4 +104,122 @@ h2 {
   width: 170px;
   height: 2px;
   margin: 30px 0px 0 0px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 998px;
+  }
+  .main-person-wrapper {
+    gap: 20px;
+  }
+  .main-person-photo {
+    padding: 50px 0px;
+    margin-left: -80px;
+  }
+  .main-person-image {
+    width: 300px;
+    z-index: 10;
+  }
+}
+@media (max-width: 998px) {
+  .container {
+    max-width: 768px;
+  }
+  .main-contacts {
+    padding: 200px 50px 20px 17px;
+  }
+  .main-text {
+    max-width: 150px;
+  }
+  .main-person-photo {
+    padding: 50px 0px;
+    margin-left: -70px;
+  }
+  .main-person-image {
+    width: 200px;
+    z-index: 10;
+  }
+  .info-title {
+    font-size: 30px;
+  }
+  .info-subtitle {
+    font-size: 30px;
+  }
+  .main-profession {
+    font-size: 15px;
+    position: relative;
+  }
+  .main-profession::before {
+    width: 140px;
+    margin: 20px 0px 0 0px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 80px;
+  }
+  .main-person-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+  .main-person-photo {
+    padding: 50px 0px 0 0;
+    margin-left: -90px;
+  }
+  .main-person-info {
+    padding: 10px;
+  }
+  .info-title,
+  .info-subtitle,
+  .main-profession {
+    align-self: flex-end;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding: 50px;
+  }
+  .main-person-data {
+    flex-direction: column-reverse;
+    position: static;
+  }
+  .main-person-wrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-person-photo {
+    padding: 20px;
+    /* width: 100%; */
+    margin-left: 0px;
+  }
+  .main-person-image {
+    width: 150px;
+  }
+  .main-contacts {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+  }
+  .info-title {
+    font-size: 25px;
+    line-height: 10px;
+  }
+  .info-subtitle {
+    font-size: 25px;
+    line-height: 10px;
+  }
+  .main-profession {
+    font-size: 16px;
+  }
+  .main-profession::before {
+    width: 140px;
+  }
+  .main-text {
+    max-width: 100%;
+    padding: 5px;
+  }
 }

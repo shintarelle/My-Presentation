@@ -70,3 +70,40 @@
   color: aliceblue;
   line-height: 25px;
 }
+
+@media (max-width: 1200px) {
+  .aboutme-wrapper {
+    padding: 30px;
+  }
+  .aboutme-education {
+    padding: 30px;
+  }
+  .wrapper-skills {
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 998px) {
+  .aboutme-wrapper {
+    padding: 20px;
+  }
+  .aboutme-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .aboutme-info {
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  .aboutme-title {
+    font-size: 25px;
+  }
+  .aboutme-education {
+    padding: 20px;
+  }
+  .education-certificate {
+    flex-wrap: wrap;
+  }
+}
