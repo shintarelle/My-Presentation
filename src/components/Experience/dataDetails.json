@@ -1,0 +1,28 @@
+[
+  {
+    "question": "How many years of front-end development experience do you have?",
+    "answer": "I have experience in front-end development since starting at the Hillel IT school. That's about three months of practicing and learning layout (assignment, diploma project, and 3 separate landing pages) and 6 months in Javascript/React development (several applications)"
+},
+  {
+    "question": "Have you worked with JavaScript? What JS tools/libraries have you worked with? Do you have experience with React? (commercial or on projects)?",
+    "answer": "I worked with Webpack, Visual Studio Code, Chrome Dev Tools, ESLint, Git, Github, Npm and React, React-DOM, jQuerry, Formik, Yup libraries, no commercial experience."
+},
+  {
+    "question": "What modern layout systems have you used?",
+    "answer": "I used Webpack built into React."
+},
+  {
+    "question": "Are you familiar with SEO optimization? Have you worked with Google Analytics, GTM? Please tell us more about this experience.",
+    "answer": "`Yes. I know what that is, but I have not worked with it yet."
+},
+  {
+    "question": "Did you create marketing landing pages specifically?",
+    "answer": "I'd constructed several landing pages, such as business cards for restaurants, and a food ordering website."
+},
+  {
+    "question": "How often and with whom do you use spoken English at work?",
+    "answer": "Generally I use English only to gain knowledge and find solutions to tasks in the documentation. And also visiting English courses where we have a lot of spoken practice."
+}
+
+
+]

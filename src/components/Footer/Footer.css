@@ -1,3 +1,28 @@
 .container-footer {
+  margin: 0 auto;
+  max-width: 1580px;
   padding: 30px;
+  background-color: #004282;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  font-size: 30px;
+}
+.footer-link {
+  color: #000;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .container-footer {
+    padding: 20px;
+  }
+
+  .aboutme-title {
+    font-size: 25px;
+  }
 }
